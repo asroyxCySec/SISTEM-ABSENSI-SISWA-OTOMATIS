@@ -13,9 +13,9 @@
 ## 🛠️ PERSIAPAN HARDWARE
 > Komponen: <br>
 > - NodeMCU ESP8266 <br>
-> - RFID Reader RC522
-> - Kabel jumper
-> - Breadboard
+> - RFID Reader RC522 <br>
+> - Kabel jumper <br>
+> - Breadboard <br>
 > - LCD 16x2 + I2C
 
 ## Web Interface (PHP + Bootstrap)
