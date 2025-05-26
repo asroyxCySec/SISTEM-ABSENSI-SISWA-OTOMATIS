@@ -23,3 +23,8 @@
 > - Lihat Riwayat Absen <br>
 > - Tambah/Edit Data Siswa <br>
 > - Kirim ulang notifikasi
+
+##  WHATSAPP GATEWAY
+> - whacenter.com <br>
+> - Watzap.id <br>
+> - UltraMsg
