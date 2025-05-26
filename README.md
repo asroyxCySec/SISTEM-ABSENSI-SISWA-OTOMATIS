@@ -4,6 +4,7 @@
 > - NodeMCU ESP8266  C <br>
 > - RFID Reader RC522 <br>
 > - Kartu RFID (tag) <br>
+> - buzzer <br>
 > - LCD 16x2 <br>
 > - Server & Database (PHP + MySQL) <br>
 > - Web App (untuk guru, admin, wali kelas, siswa) <br>
