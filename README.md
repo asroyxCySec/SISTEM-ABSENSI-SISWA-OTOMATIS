@@ -1,7 +1,7 @@
 # PERANCANGAN SISTEM ABSENSI SISWA OTOMATIS MENGGUNAKAN RFID DENGAN FITUR NOTIFIKASI WHATSAPP UNTUK ORANG TUA
 ## 💡 RINGKASAN SISTEM <br>
 > Alat yang digunakan: <br>
-> - NodeMCU ESP8266 <br>
+> - NodeMCU ESP8266  C <br>
 > - RFID Reader RC522 <br>
 > - Kartu RFID (tag) <br>
 > - LCD 16x2 <br>
