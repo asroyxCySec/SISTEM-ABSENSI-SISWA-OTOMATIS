@@ -19,4 +19,6 @@
 
 ## 2. Merakit Komponen Hardware
 > Berikut adalah gambar perakitan komponen
+<br>
 
+![Perakitan Komponen](https://github.com/asroyxCySec/SISTEM-ABSENSI-SISWA-OTOMATIS/raw/main/rakit%20komponen.png)
