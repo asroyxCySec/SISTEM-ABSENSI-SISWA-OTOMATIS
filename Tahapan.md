@@ -16,3 +16,7 @@
 | ✅ Buzzer Atif  | 1      | Jika ingin bunyi saat tap kartu                         |
 
 <br>
+
+## 2. Merakit Komponen Hardware
+> Berikut adalah gambar perakitan komponen
+
