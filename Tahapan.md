@@ -22,3 +22,26 @@
 <br>
 
 ![Perakitan Komponen](https://github.com/asroyxCySec/SISTEM-ABSENSI-SISWA-OTOMATIS/raw/main/rakit%20komponen.png)
+
+<br>
+
+### LCDx2 <br>
+| LCD            | NodeMCU 8266                                                 |
+| ------------------- | ------------------------------------------------------------- |
+| GND   | GND                         |
+| VCC | 3V            |
+| SDA    | D2                         |
+| SCL  | D1 |
+
+<br>
+
+### RFID-RC522 <br>
+| RFID-RC522          | NodeMCU 8266                                                |
+| ------------------- | ------ | ------------------------------------------------------- |
+| SDA   | D8                         |
+| SCK | D5            |
+| MOSI    | D7                         |
+| MISO  | D6  |
+| GND      | GND                                            |
+| RST  | D4                             |
+| 3.3V  | 3V                         |
