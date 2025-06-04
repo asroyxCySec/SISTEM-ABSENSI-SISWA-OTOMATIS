@@ -53,3 +53,67 @@
 | ------------------- | --------------------------------------------------------- |
 | GND   | GND                         |
 | VCC | D3            |
+
+<br>
+
+## 3. 🚀 PILIHAN WA GATEWAY
+### Step 1: Daftar Fonnte <br>
+
+> - Buka https://fonnte.com
+> - Klik "Daftar" → Isi data dir
+> - Verifikasi email
+> - Login ke dashboard
+
+<br>
+
+### Step 2: Setup WhatsApp <br>
+
+> - Di dashboard Fonnte → Klik "Device"
+> - Klik "Add Device" → Pilih "WhatsApp"
+> - Scan QR Code dengan HP (WA yang mau dijadiin bot)
+> - Tunggu status jadi "Connected"
+
+<br>
+
+### Step 3: Dapatkan API Key <br>
+
+> - Masuk menu "API"
+> - Copy API Key 
+> - Catat Token Device
+
+### Step 4: Test API <br>
+
+```bash
+
+<?php
+// test_fonnte.php
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://api.fonnte.com/send',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'POST',
+  CURLOPT_POSTFIELDS => array(
+    'target' => '628123456789', // Nomor tujuan
+    'message' => 'Test pesan dari sistem absensi!',
+  ),
+  CURLOPT_HTTPHEADER => array(
+    'Authorization: YOUR_API_KEY_DISINI'
+  ),
+));
+
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
+?>
+
+
+
+> xampp 7.4.33: link download https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download
+
+```
